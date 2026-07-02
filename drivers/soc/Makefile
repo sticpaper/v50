@@ -56,3 +56,22 @@ obj-y += oplus/dft/
 obj-$(CONFIG_OPLUS_FEATURE_MM_FEEDBACK)	+= oplus/oplus_mm_fb/
 #endif /* OPLUS_FEATURE_MM_FEEDBACK */
 obj-y	+= oplus/storage/
+
+# moon-changes for oplus_kernel_modules
+obj-y	+= oplus/explorer/
+# obj-y	+= oplus/fpsgo_cus/ : Not opensource
+obj-y	+= oplus/game_opt/
+obj-y	+= oplus/data_module/
+obj-y	+= oplus/oplus_connectivity_routerboost/
+obj-y	+= oplus/oplus_connectivity_sla/
+obj-y	+= oplus/oplus_game_first/
+obj-y	+= oplus/oplus_stats_calc/
+obj-y	+= oplus/oplus_wificapcenter/
+obj-y	+= oplus/oplus_apps_monitor/
+obj-y	+= oplus/memleak_detect/
+obj-y	+= oplus/oplus_score/
+obj-y	+= oplus/oplus_dns_hook/
+obj-y	+= oplus/oplus_qr_scan/
+
+# Oplus_Hans Freeze Framwork
+obj-y	+= oplus/hans/

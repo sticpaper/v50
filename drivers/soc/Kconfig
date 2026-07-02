@@ -77,4 +77,24 @@ source "drivers/soc/oplus/midas/Kconfig"
 #endif /*OPLUS_FEATURE_MIDAS*/
 
 source "drivers/soc/oplus/storage/Kconfig"
+
+# moon-changes for oplus_kernel_modules
+source "drivers/soc/oplus/explorer/Kconfig"
+# source "drivers/soc/oplus/fpsgo_cus/Kconfig" : Not opensource
+source "drivers/soc/oplus/game_opt/Kconfig"
+source "drivers/soc/oplus/data_module/Kconfig"
+source "drivers/soc/oplus/oplus_connectivity_routerboost/Kconfig"
+source "drivers/soc/oplus/oplus_connectivity_sla/Kconfig"
+source "drivers/soc/oplus/oplus_game_first/Kconfig"
+source "drivers/soc/oplus/oplus_stats_calc/Kconfig"
+source "drivers/soc/oplus/oplus_wificapcenter/Kconfig"
+source "drivers/soc/oplus/oplus_apps_monitor/Kconfig"
+source "drivers/soc/oplus/memleak_detect/Kconfig"
+source "drivers/soc/oplus/oplus_score/Kconfig"
+source "drivers/soc/oplus/oplus_dns_hook/Kconfig"
+source "drivers/soc/oplus/oplus_qr_scan/Kconfig"
+
+# Oplus_Hans Freeze Framwork
+source "drivers/soc/oplus/hans/Kconfig"
+
 endmenu
